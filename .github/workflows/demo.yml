@@ -1,0 +1,11 @@
+name Simple CI Workflow
+
+on: push
+
+jobs:
+    say-hello:
+        runs-on:ubuntu-latest
+
+    steps:
+        - name:Print a hello messaage
+        run:echo "hello ,Github actions"
